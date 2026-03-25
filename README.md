@@ -5,9 +5,6 @@
 Indian Institute of Technology Jodhpur  
 
 ---
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -278,28 +275,27 @@ Each name is processed as:
 
 #### RNN
 
-
+```
 anika menon
 aarav pandey
 myra iyer
 diya singh
-
+```
 
 #### BiLSTM
 
 
-(empty or repetitive outputs)
+(empty or repetitive character based irregular outputs of very small size)
 
 
 #### Attention RNN
 
-
+```
 pari malhotra
 aarav bajaj
 raghav bajaj
 myra bajpai
-
-
+```
 ---
 
 ## ❗ Key Findings
@@ -374,11 +370,11 @@ python evaluate.py
 
 ---
 
-📚 Dependencies
+# Dependencies
 PyTorch
 NumPy
 
 Install dependencies: pip install torch numpy
 
-📎 Note
+# Note
 This project was developed as part of the Natural Language Understanding (NLU) course assignment.
