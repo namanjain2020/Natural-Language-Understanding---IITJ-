@@ -363,14 +363,17 @@ This mismatch causes:
 
 ## ▶️ How to Run
 
-### 1. Train Model
+### Train Models
 
 ```bash
-1. Train models
 python train.py
-2. Generate Names
+### Generate Names
+
+```bash
 python generate.py
-3. Evaluate Models
+
+```bash
+### Evaluate Models
 python evaluate.py
 
 📚 Dependencies
