@@ -378,11 +378,6 @@ PyTorch
 NumPy
 
 Install dependencies: pip install torch numpy
-👨‍🎓 Author
-
-Naman Jain
-B22BB027
-IIT Jodhpur
 
 📎 Note
 
