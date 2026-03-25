@@ -6,6 +6,29 @@ Indian Institute of Technology Jodhpur
 
 ---
 
+---
+
+## 📁 Project Structure
+
+```
+├── NLU_Assignment_2_Question_1_IITJ.ipynb
+├── web-scraping-corpus-generation
+├── Corpus.txt
+├── rnn_model.py
+├── bilstm_model.py
+├── attention_rnn.py
+├── train.py
+├── generate.py
+├── evaluate.py
+├── TrainingNames.txt
+├── results.txt
+├── rnn_model.pth
+├── attention_model.pth
+├── bilstm_model.pth
+└── README.md
+```
+
+---
 # 🧠 PART 1: Learning Word Embeddings from IIT Jodhpur Data
 
 ## 📌 Overview
@@ -149,18 +172,6 @@ A hybrid system was built combining:
 * Compare with pre-trained embeddings (GloVe, FastText)  
 * Explore transformer-based embeddings (BERT)  
 
----
-
-## 📁 Project Structure (Part 1)
-
-
-├── notebook.ipynb
-├── Corpus.txt
-└── README.md
-
-
----
-
 ## ✅ Conclusion (Part 1)
 
 This project demonstrates how word embeddings can be learned from domain-specific data. The use of a hybrid scraping + LLM pipeline significantly improves corpus quality, leading to better semantic representations, especially with the Skip-gram model.
@@ -200,26 +211,6 @@ the model estimates the joint probability as:
 P(x) = ∏ P(x_t | x₁, x₂, ..., x_{t-1})  
 
 This autoregressive formulation allows the model to generate new names sequentially, by sampling each character conditioned on the preceding context.
-
----
-
-## 📂 Project Structure (Part 2)
-
-
-.
-├── rnn_model.py
-├── bilstm_model.py
-├── attention_rnn.py
-├── train.py
-├── generate.py
-├── evaluate.py
-├── TrainingNames.txt
-├── results.txt
-├── *.pth (saved models)
-└── README.md
-
-
----
 
 ## ⚙️ Models Implemented
 
@@ -367,14 +358,21 @@ This mismatch causes:
 
 ```bash
 python train.py
-### Generate Names
+```
+
+#### Generate Names
 
 ```bash
 python generate.py
+```
+
+#### Evaluate Models
 
 ```bash
-### Evaluate Models
 python evaluate.py
+```
+
+---
 
 📚 Dependencies
 PyTorch
