@@ -366,19 +366,18 @@ This mismatch causes:
 ### 1. Train Model
 
 ```bash
+1. Train models
 python train.py
 2. Generate Names
 python generate.py
 3. Evaluate Models
 python evaluate.py
+
 📚 Dependencies
-Python 3.x
 PyTorch
 NumPy
 
-Install dependencies:
-
-pip install torch numpy
+Install dependencies: pip install torch numpy
 👨‍🎓 Author
 
 Naman Jain
