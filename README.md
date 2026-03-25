@@ -387,8 +387,3 @@ IIT Jodhpur
 📎 Note
 
 This project was developed as part of the Natural Language Understanding (NLU) course assignment.
-- Add **badges (GitHub style)**
-- Add **images (t-SNE plots, results)**
-- Make it **top-tier resume project README**
-
-Just tell 👍
