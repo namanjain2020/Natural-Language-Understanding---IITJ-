@@ -380,5 +380,4 @@ NumPy
 Install dependencies: pip install torch numpy
 
 📎 Note
-
 This project was developed as part of the Natural Language Understanding (NLU) course assignment.
